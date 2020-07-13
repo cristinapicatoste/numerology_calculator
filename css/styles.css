@@ -1,0 +1,116 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+body {
+    background-image: url(/images/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0 15%;
+}
+
+/* NAVBAR SECTION */
+.logo {
+    max-width: 33%;
+}
+
+nav {
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 3rem;
+    padding: 5% 0;
+}
+
+.a-nav-padding {
+    padding: 0;
+}
+
+.li-left-padding {
+    padding-left: 40px;
+}
+
+.li-right-padding {
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 769px) {
+    .logo {
+        max-width: 50%;
+    }
+}
+
+/* SLIDEHOME SECTION */
+.slidehome {
+    padding: 15% 0;
+    text-align: left;
+}
+
+.h1-slideshow {
+    padding-right: 33%;
+    line-height: 1.2;
+    font-size: 6rem;
+    margin: 0;
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1700px) {
+    .h1-slideshow {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1000px) {
+    .h1-slideshow {
+        padding: 5% 0 10%;
+        font-size: 4rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .h1-slideshow {
+        padding: 5% 0 20%;
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
+/* FORM SECTION */
+input[type=text] {
+    color: white;
+}
+
+input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browser-default):focus {
+    border-bottom: 1px solid #fff;
+    -webkit-box-shadow: 0 1px 0 0 #fff;
+    box-shadow: 0 1px 0 0 #fff;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+}
+
+/* .btn {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid white;
+} */

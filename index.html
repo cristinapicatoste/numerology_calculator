@@ -1,0 +1,149 @@
+<head>
+  <meta charset="utf-8">
+  <title>Numerology Calculator</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;515;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <!-- CSS Bootstrap Stylesheets -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+  
+  <!-- CSS Materialize Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome Scripts -->  
+  <script src="https://kit.fontawesome.com/e2b98675f2.js" crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <!-- <a href="#" class="brand-logo center"><img src="/images/logo22.png" alt="logo-img" class="logo"></a> -->
+      
+      <ul id="nav-mobile" class="left hide-on-med-and-down ">
+        <li class="li-right-padding"><a href="sass.html" class="a-nav-padding">About us</a></li>
+        <li class="li-right-padding"><a href="badges.html" class="a-nav-padding"></a>Courses</li>
+        <li class="li-right-padding"><a href="collapsible.html" class="a-nav-padding"></a>Numerology</li>
+      </ul>
+      <a href="#" class="brand-logo center"><img src="/images/logo22.png" alt="logo-img" class="logo"></a>
+      <!-- <img src="/images/logo22.png" alt="logo-img" class="brand-logo center logo"> -->
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="li-left-padding"><a href="sass.html" class="a-nav-padding"><i class="fab fa-facebook-f"></i></a></li>
+        <li class="li-left-padding"><a href="badges.html" class="a-nav-padding"><i class="fab fa-instagram"></i></a></li>
+        <li class="li-left-padding"><a href="collapsible.html" class="a-nav-padding"><i class="fab fa-whatsapp"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="form">
+    <div class="slidehome">
+
+      <div class="row">
+
+        <div class="col xl6 l6 m12 s12">
+          <h1 class="h1-slideshow">Numerology Calculator</h1>
+        </div>
+
+        <form name="formu" id="formu">
+          <div class="col xl6 l6 m12 s12">
+          <div class="input-field">
+            <input placeholder="Complete Name" id="complete-name" type="text" name="name" class="validate" required>
+            <label for="first_name">Complete Name</label>
+          </div>
+          </div>
+
+          <div class="col xl2 l2 m4 s12">
+            <div class="input-field">
+              <input placeholder="Day" id="day-of-birth" type="number" name="day" class="validate" required>
+              <label for="day_birth" class="text-label">Day of birth</label>
+            </div>
+          </div>
+          <div class="col xl2 l2 m4 s12">
+            <div class="input-field">
+              <input placeholder="Month" id="month-of-birth" type="number" name="month" class="validate" required>
+              <label for="month_birth" class="text-label">Month of birth</label>
+            </div>
+          </div>  
+          <div class="col xl2 l2 m4 s12">
+            <div class="input-field">
+              <input placeholder="Year" id="year-of-birth" type="number" name="year" class="validate" required>
+              <label for="year_birth" class="text-label">Year of birth</label>
+            </div>
+          </div>
+
+          <button class="btn right" type="submit" name="action" onclick="getData()">Calculate numerology</button>
+        </form>
+
+        <!-- <form>
+          <div class="row">
+            <div class="col xl6 l6 m12 s12">
+              <div class="input-field">
+                <input placeholder="Complete Name" id="complete-name" type="text" class="validate">
+                <label for="first_name">Complete Name</label>
+              </div>
+
+              <div class="col xl12">
+                <div class="col s4 input-field">
+                  <input placeholder="Day" id="day-of-birth" type="text" class="validate">
+                  <label for="day_birth" class="text-label">Day of birth</label>
+                </div>
+                <div class="col s4 input-field">
+                  <input placeholder="Month" id="month-of-birth" type="text" class="validate">
+                  <label for="month_birth" class="text-label">Month of birth</label>
+                </div>
+                <div class="col s4 input-field">
+                  <input placeholder="Year" id="year-of-birth" type="text" class="validate">
+                  <label for="year_birth" class="text-label">Year of birth</label>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col xl12">
+              <div class="col s4 input-field">
+                <input placeholder="Day" id="day-of-birth" type="text" class="validate">
+                <label for="day_birth" class="text-label">Day of birth</label>
+              </div>
+              <div class="col s4 input-field">
+                <input placeholder="Month" id="month-of-birth" type="text" class="validate">
+                <label for="month_birth" class="text-label">Month of birth</label>
+              </div>
+              <div class="col s4 input-field">
+                <input placeholder="Year" id="year-of-birth" type="text" class="validate">
+                <label for="year_birth" class="text-label">Year of birth</label>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn disabled waves-effect waves-light right" type="submit" name="action">Calculate numerology</button>
+
+        </form> -->
+
+      </div>
+
+    </div>
+  </section>
+    
+
+  <!-- Bootstrap Scripts -->
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+  
+  <!-- Materialize Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- Materialize Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>
