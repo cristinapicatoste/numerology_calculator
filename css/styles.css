@@ -6,7 +6,7 @@ font-family: 'Raleway', sans-serif; */
 body {
     background: rgb(3,0,50);
     background: linear-gradient(22deg, rgba(3,0,50,1) 0%, rgba(9,9,121,1) 35%, rgba(207,11,92,1) 100%);
-    /* background-image: url(/images/fondo.png); */
+    /* background-image: url(images/fondo.png); */
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
@@ -14,6 +14,24 @@ body {
     color: #fff;
     margin: 0;
     padding: 0 15%;
+}
+
+table {
+    /* max-width: 30%; */
+    display: inline;
+    /* text-align: center; */
+}
+
+tr {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border: #fff 1px solid;
+    border-radius: 50%;
 }
 
 /* NAVBAR SECTION */
@@ -100,6 +118,7 @@ input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browse
     border-radius: 10px;
     border-color: #fff;
     color: #fff;
+    margin-top: 30px;
 }
 
 .btn:hover {
@@ -107,14 +126,20 @@ input.valid[type=text]:not(.browser-default), input.valid[type=text]:not(.browse
     border: none;
 }
 
-/* .btn {
-    background-color: rgba(255, 255, 255, 0.3);
-    border: none;
-    border-radius: 10px;
-    color: #fff;
+@media screen and (max-width: 769px) {
+    .btn {
+        width: 100%;
+    }
 }
 
-.btn:hover {
-    background-color: transparent;
-    border: 1px solid white;
-} */
+/* RESULT SECTION */
+
+.fila {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* Las dos propiedades anteriores se pueden unificar en: */
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}

@@ -26,16 +26,13 @@
 </head>
 <body>
   <nav>
-    <div class="nav-wrapper">
-      <!-- <a href="#" class="brand-logo center"><img src="/images/logo22.png" alt="logo-img" class="logo"></a> -->
-      
+    <div class="nav-wrapper">      
       <ul id="nav-mobile" class="left hide-on-med-and-down ">
         <li class="li-right-padding"><a href="sass.html" class="a-nav-padding">About us</a></li>
         <li class="li-right-padding"><a href="badges.html" class="a-nav-padding"></a>Courses</li>
         <li class="li-right-padding"><a href="collapsible.html" class="a-nav-padding"></a>Numerology</li>
       </ul>
       <a href="#" class="brand-logo center"><img src="images/logo22.png" alt="logo-img" class="logo"></a>
-      <!-- <img src="images/logo22.png" alt="logo-img" class="brand-logo center logo"> -->
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li class="li-left-padding"><a href="sass.html" class="a-nav-padding"><i class="fab fa-facebook-f"></i></a></li>
         <li class="li-left-padding"><a href="badges.html" class="a-nav-padding"><i class="fab fa-instagram"></i></a></li>
@@ -53,37 +50,72 @@
           <h1 class="h1-slideshow">Numerology Calculator</h1>
         </div>
 
+        <!-- <form id="form">
+          <input type="text" name="name" id="name" placeholder="Name" class="col xl6 l6 m12 s12"/>
+          <input type="number" name="day" id="day" placeholder="Day" class="col xl2 l6 m12 s12"/>
+          <input type="number" name="month" id="month" placeholder="Month" class="col xl2 l6 m12 s12"/>
+          <input type="number" name="year" id="year" placeholder="Year" class="col xl2 l6 m12 s12"/>
+          <input type="submit" value="Calculate numerology" id="submit" class="btn right"/>
+        </form> -->
+        
         <form name="formu" id="formu">
           <div class="col xl6 l12 m12 s12">
           <div class="input-field">
-            <input placeholder="Complete Name" id="complete-name" type="text" name="name" class="validate" required>
+            <input type="text" name="name" id="name" placeholder="Name" class="validate" required>
             <label for="first_name">Complete Name</label>
           </div>
           </div>
 
           <div class="col xl2 l4 m12 s12">
             <div class="input-field">
-              <input placeholder="Day" id="day-of-birth" type="number" name="day" class="validate" required>
+              <input type="number" name="day" id="day" placeholder="Day" class="validate" required>
               <label for="day_birth" class="text-label">Day of birth</label>
             </div>
           </div>
           <div class="col xl2 l4 m12 s12">
             <div class="input-field">
-              <input placeholder="Month" id="month-of-birth" type="number" name="month" class="validate" required>
+              <input type="number" name="month" id="month" placeholder="Month" class="validate" required>
               <label for="month_birth" class="text-label">Month of birth</label>
             </div>
           </div>  
           <div class="col xl2 l4 m12 s12">
             <div class="input-field">
-              <input placeholder="Year" id="year-of-birth" type="number" name="year" class="validate" required>
+              <input type="number" name="year" id="year" placeholder="Year" class="validate" required>
               <label for="year_birth" class="text-label">Year of birth</label>
             </div>
           </div>
 
-          <button class="btn right" type="submit" name="action" onclick="getData()">Calculate numerology</button>
-        </form>
-
+          <input type="submit" value="Calculate numerology" id="submit" class="btn right"/>
+          <!-- <button id="submit" class="btn right" type="submit" name="action">Calculate numerology</button> -->
+        </form> 
       </div>
+    </div>
+  </section>
+  
+  <!-- <section>
+    <div>
+        <table>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </table>
+    </div>
+  </section> -->
+
+  <section>
+    <div id="result">
 
     </div>
   </section>
@@ -97,7 +129,7 @@
   <!-- Materialize Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-  <!-- Materialize Scripts -->
+  <!-- Scripts -->
   <script src="js/script.js"></script>
 </body>
 </html>
