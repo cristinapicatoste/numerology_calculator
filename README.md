@@ -1,10 +1,10 @@
 
 
-<h1>EN | Numerology Calculator Project, 2020</h1>
+<h1>EN | <a href="https://cristinapicatoste.github.io/numerology_calculator/">Numerology Calculator</a> Project, 2020</h1>
 
 Numerology is an ancient tool of self-knowledge that reveals an endless number of innate qualities of people, their desires and aspirations, even professions that can be developed by affinity. Numerology gives us access to our potential and can help us evolve by improving the challenges posed by each number on the number chart.
 
-Numerology is the bridge between who you are now and who you can become. Uncover what your destiny and life purpose is with this modern <a href="https://cristinapicatoste.github.io/numerology_calculator/">Numerology Calcylator.</a>
+Numerology is the bridge between who you are now and who you can become. Uncover what your destiny and life purpose is with this modern <a href="https://cristinapicatoste.github.io/numerology_calculator/">Numerology Calculator</a>.
 
 <h2>Languages and Frameworks</h2>
 
@@ -29,7 +29,7 @@ Cristina Picatoste
 <a href="https://www.linkedin.com/in/cristinapicatoste/">Linkedin</a>
 
 
-<h1>ES || Proyecto Calculadora Numerológica, 2020</h1>
+<h1>ES | Proyecto <a href="https://cristinapicatoste.github.io/numerology_calculator/">Calculadora Numerológica</a>, 2020</h1>
 
 La numerología es una antigua herramienta de autoconocimiento que nos descubre un sinfín de cualidades innatas de las personas, sus deseos y aspiraciones, incluso profesiones que puede desarrollar por afinidad. La numerología nos da acceso a nuestro potencial y nos puede ayudar a evolucionar mejorando en los retos que plantea cada número de la carta numerológica. 
 
