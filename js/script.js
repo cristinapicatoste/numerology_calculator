@@ -462,31 +462,46 @@ console.log("Número de liberación: " + numeroLiberacion);
 
   div.innerHTML = 
   `
-  <div class="fila">
-    <div class="item-fila">
-      <h2>Your Numerology:</h2>
+  <div>
+    <h2>Numerology Card of:</h2>
         <h4>${nombre}</h4>
         <h5>Born the ${diaNacimiento}, ${mesNacimiento}, ${añoNacimiento}</h5>
           <br>
+          <h1 class="h1-results"> ${diaNacimientoEspecial} - ${numeroCaminoDeVidaEspecial} // ${numeroAlmaReducido} - ${numeroPersonalidadReducido} - ${numeroExpresionReducido}</h1>
+  </div>
+  <hr>
+  <div class="fila-1">
+    <div class="item-fila">
         <h4>Live Path Number</h4>
-        <p>Your Live Path Number is</p>
-        <h2>${numeroCaminoDeVidaEspecial}</h2>
-          <br>
-        <h5>Live Mision Number ${numeroMisionVidaEspecial}</h5>
-        <p>Your Live Mision Number is ${numeroMisionVidaEspecial}.</p>
-          <br>
-        <h5>Soul Number ${numeroAlmaReducido}</h5>
-        <p>Your Soul Number is ${numeroAlmaReducido}.</p>
-          <br>
-        <h5>Personality Number ${numeroPersonalidadReducido}</h5>
-        <p>Your Personality Number is ${numeroPersonalidadReducido}.</p>
-          <br>
-        <h5>Expression Number ${numeroExpresionReducido}</h5>
-        <p>Your Expression Number is ${numeroExpresionReducido}.</p>
-          <br>
-        <h5>Balance Number ${numeroEquilibrio}</h5>
-        <p>Your Balance Number is ${numeroEquilibrio}.</p>
-          <br>
+        <h1>${numeroCaminoDeVidaEspecial}</h1>
+        <br>
+    </div> 
+    <div class="item-fila">
+        <h4>Live Mision Number</h4>
+        <h1>${numeroMisionVidaEspecial}</h1>
+        <br>
+    </div>
+  </div>
+  <hr>
+  <div class="fila-2">
+    <div class="item-fila">
+      <h4>Your Essence Numbers:</h4>
+      <br>      
+        <h5>Soul Number</h5>
+        <h2>${numeroAlmaReducido}</h2>
+        <br>
+        
+        <h5>Personality Number</h5>
+        <h2>${numeroPersonalidadReducido}</h2>
+        <br>
+        
+        <h5>Expression Number</h5>
+        <h2>${numeroExpresionReducido}</h2>
+        <br>
+        
+        <h5>Balance Number</h5>
+        <h2>${numeroEquilibrio}</h2>
+        <br>
     </div>
     <div class="item-fila">
       <h4>Your Inclusion:</h4>
@@ -516,3 +531,20 @@ console.log("Número de liberación: " + numeroLiberacion);
 
 }
 
+{/* <div class="item-fila">
+<h5>Live Mision Number ${numeroMisionVidaEspecial}</h5>
+<p>Your Live Mision Number is ${numeroMisionVidaEspecial}.</p>
+  <br>
+<h5>Soul Number ${numeroAlmaReducido}</h5>
+<p>Your Soul Number is ${numeroAlmaReducido}.</p>
+  <br>
+<h5>Personality Number ${numeroPersonalidadReducido}</h5>
+<p>Your Personality Number is ${numeroPersonalidadReducido}.</p>
+  <br>
+<h5>Expression Number ${numeroExpresionReducido}</h5>
+<p>Your Expression Number is ${numeroExpresionReducido}.</p>
+  <br>
+<h5>Balance Number ${numeroEquilibrio}</h5>
+<p>Your Balance Number is ${numeroEquilibrio}.</p>
+  <br>
+</div> */}
