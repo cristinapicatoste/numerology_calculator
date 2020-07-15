@@ -463,7 +463,7 @@ console.log("Número de liberación: " + numeroLiberacion);
   div.innerHTML = 
   `
   <div>
-    <h2>Numerology Card of:</h2>
+    <h2>Numerology Chart of:</h2>
         <h4>${nombre}</h4>
         <h5>Born the ${diaNacimiento}, ${mesNacimiento}, ${añoNacimiento}</h5>
           <br>
@@ -507,21 +507,21 @@ console.log("Número de liberación: " + numeroLiberacion);
       <h4>Your Inclusion:</h4>
       <table>
       <tr>
-        <td>Casa 1:<h1>${habitanteCasilla1}</h1></td>
-        <td>Casa 2:<h1>${habitanteCasilla2}</h1></td>
-        <td>Casa 3:<h1>${habitanteCasilla3}</h1></td>
+        <td>House 1:<h1>${habitanteCasilla1}</h1></td>
+        <td>House 2:<h1>${habitanteCasilla2}</h1></td>
+        <td>House 3:<h1>${habitanteCasilla3}</h1></td>
       </tr>
       <br>
       <tr>
-        <td>Casa 4:<h1>${habitanteCasilla4}</h1></td>
-        <td>Casa 5:<h1>${habitanteCasilla5}</h1></td>
-        <td>Casa 6:<h1>${habitanteCasilla6}</h1></td>
+        <td>House 4:<h1>${habitanteCasilla4}</h1></td>
+        <td>House 5:<h1>${habitanteCasilla5}</h1></td>
+        <td>House 6:<h1>${habitanteCasilla6}</h1></td>
       </tr>
       <br>
       <tr>
-        <td>Casa 7:<h1>${habitanteCasilla7}</h1></td>
-        <td>Casa 8:<h1>${habitanteCasilla8}</h1></td>
-        <td>Casa 9:<h1>${habitanteCasilla9}</h1></td>
+        <td>House 7:<h1>${habitanteCasilla7}</h1></td>
+        <td>House 8:<h1>${habitanteCasilla8}</h1></td>
+        <td>House 9:<h1>${habitanteCasilla9}</h1></td>
       </tr>
       </table>
     </div>
