@@ -20,13 +20,21 @@ This modern and simple site is made with:
 
 The Numerology Calculator Project was a challenge to automate some classical numerology calculations and offer a simple, easy to use and dynamic platform for users to get a first look at their numerology and its meaning.
 
+
+<h2>Take a look</h2>
+<a href="https://cristinapicatoste.github.io/numerology_calculator/">Numerology Calculator Project</a>, 2020.
+   
 <h2>Author</h2>
 
-Cristina Picatoste
-<br>
+<h4>Cristina Picatoste</h4>
+
+<h6>Contact and other projects</h6>
 <a href="https://github.com/cristinapicatoste">Github</a>
 <br>
 <a href="https://www.linkedin.com/in/cristinapicatoste/">Linkedin</a>
+<br>
+<a href="https://cristinapicatoste.github.io/tinDog/">TinDog Project</a>
+
 
 
 <h1>ES | Proyecto <a href="https://cristinapicatoste.github.io/numerology_calculator/">Calculadora Numerológica</a>, 2020</h1>
@@ -50,15 +58,18 @@ Este moderno y sencillo site ha sido desarrollado con:
 
 El proyecto fue un reto para automatizar algunos cálculos de la numerología clásica y ofrecer una plataforma sencilla, fácil de usar y dinámica para que los usuarios puedan tener una primera aproximación con su numerología y su significado.
 
+<h2>Echa un vistazo</h2>
+Proyecto <a href="https://cristinapicatoste.github.io/numerology_calculator/">Calculadora Numerológica</a>, 2020.
+   
 <h2>Autor</h2>
 
-Cristina Picatoste
-<br>
+<h4>Cristina Picatoste</h4>
+
+<h6>Contacto y otros proyectos</h6>
 <a href="https://github.com/cristinapicatoste">Github</a>
 <br>
 <a href="https://www.linkedin.com/in/cristinapicatoste/">Linkedin</a>
-
-
-
+<br>
+<a href="https://cristinapicatoste.github.io/tinDog/">Proyecto TinDog</a>
 
 
