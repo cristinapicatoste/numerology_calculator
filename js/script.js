@@ -60,7 +60,18 @@ function getFormValues() {
       //DEVUELVE EL ARRAY 'NOMBRESINESPACIOS' COMO STRINGS SEPARADOS
       //const letrasDelNombre = nombreSinEspacios.toString();
       //console.log(letrasDelNombre);
-  
+    
+  //CONVERTIR TODAS LAS INICIALES EN MAYÚSCULAS
+    function titleCase(str) {
+        str = str.toLowerCase().split(' ');
+        for (var i = 0; i < str.length; i++) {
+          str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+        }
+        return str.join(' ');
+        }
+      
+    var nombreParaWeb = titleCase(nombre);
+
   //FUNCIÓN PARA SUMAR NÚMEROS DE UN ARRAY
   function sumar(n) {
       var nx = n.reduce(function(a, b){
@@ -464,7 +475,7 @@ console.log("Número de liberación: " + numeroLiberacion);
   `
   <div>
     <h2>Numerology Chart of:</h2>
-        <h4>${nombre}</h4>
+        <h4>${nombreParaWeb}</h4>
         <h5>Born the ${diaNacimiento}, ${mesNacimiento}, ${añoNacimiento}</h5>
           <br>
           <h1 class="h1-results"> ${diaNacimientoEspecial} - ${numeroCaminoDeVidaEspecial} // ${numeroAlmaReducido} - ${numeroPersonalidadReducido} - ${numeroExpresionReducido}</h1>
